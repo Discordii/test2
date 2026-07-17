@@ -15,7 +15,7 @@
       "src/**/*"
     ],
     "win": {
-      "target": "icon.png"
+      "target": "nsis"
     }
   },
   "devDependencies": {
