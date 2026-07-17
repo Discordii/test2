@@ -1,0 +1,25 @@
+{
+  "name": "fedpromptly-desktop",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "description": "Desktop client for FedPromptly.com",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win"
+  },
+  "build": {
+    "appId": "com.yourdomain.app",
+    "productName": "FedPromptly",
+    "files": [
+      "src/**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.0.0"
+  }
+}
