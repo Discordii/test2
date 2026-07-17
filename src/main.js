@@ -5,7 +5,7 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 1200,
     height: 800,
-    icon: path.join(__dirname, 'pokemon_7025.ico'),
+    icon: path.join(__dirname, 'Dakirby309-Windows-8-Metro-Folders-OS-Windows-8-Metro.ico'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: false,
