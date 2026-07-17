@@ -15,7 +15,7 @@
       "src/**/*"
     ],
     "win": {
-      "target": "Bluesky_Logo.svg"
+      "target": "icon.png"
     }
   },
   "devDependencies": {
