@@ -19,8 +19,8 @@
       "icon": "src/123266.ico"
     },
     "nsis": {
-      "installerIcon": "src/123266.ico",
-      "uninstallerIcon": "src/123266.ico"
+      "installerIcon": "src/1233266.ico",
+      "uninstallerIcon": "src/1233266.ico"
     }
   },
   "devDependencies": {
