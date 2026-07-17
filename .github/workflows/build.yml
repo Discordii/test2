@@ -1,0 +1,30 @@
+name: Build FEDPromptly Desktop App
+on:
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Pake Tool
+        run: npm install -g pake-cli
+
+      - name: Compile Website to Exe
+        run: pake https://fedpromptly.com --name "FEDPromptly" --transparent
+
+      - name: Compress App into ZIP File
+        run: Compress-Archive -Path ./*.exe -DestinationPath ./FEDPromptly-Windows.zip
+
+      - name: Upload Zip Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: FEDPromptly-Desktop-App-Zip
+          path: ./FEDPromptly-Windows.zip
