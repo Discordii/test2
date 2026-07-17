@@ -15,7 +15,7 @@
       "src/**/*"
     ],
     "win": {
-      "target": "nsis"
+      "target": "Bluesky_Logo.svg"
     }
   },
   "devDependencies": {
