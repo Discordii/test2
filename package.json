@@ -16,11 +16,11 @@
     ],
     "win": {
       "target": "nsis",
-      "icon": "src/Dakirby309-Windows-8-Metro-Folders-OS-Windows-8-Metro.ico"
+      "icon": "src/download.ico"
     },
     "nsis": {
-      "installerIcon": "src/Dakirby309-Windows-8-Metro-Folders-OS-Windows-8-Metro.ico",
-      "uninstallerIcon": "src/Dakirby309-Windows-8-Metro-Folders-OS-Windows-8-Metro.ico"
+      "installerIcon": "src/download.ico",
+      "uninstallerIcon": "src/download.icoo"
     }
   },
   "devDependencies": {
