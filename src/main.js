@@ -5,7 +5,7 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 1200,
     height: 800,
-    icon: path.join(__dirname, 'download (19) (Custom).ico),
+    icon: path.join(__dirname, '123266.ico,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: false,
@@ -13,7 +13,7 @@ function createWindow() {
     },
   });
 
-  win.loadURL('https://www.Fedpromptly.com');
+  win.loadURL('https://www.fedpromptly.com');
 }
 
 app.whenReady().then(createWindow);
