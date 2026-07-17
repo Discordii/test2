@@ -2,7 +2,7 @@
   "name": "Fedpromptly-desktop",
   "version": "1.0.0",
   "author": "Your Name",
-  "description": "Desktop client for Pokejumper.org",
+  "description": "Desktop client for Fedpromptly",
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
@@ -16,11 +16,11 @@
     ],
     "win": {
       "target": "nsis",
-      "icon": "src/pokemon_7025.ico"
+      "icon": "src/download (19) (Custom).ico"
     },
     "nsis": {
-      "installerIcon": "src/pokemon_7025.ico",
-      "uninstallerIcon": "src/pokemon_7025.ico"
+      "installerIcon": "src/download (19) (Custom).ico",
+      "uninstallerIcon": "src/download (19) (Custom).ico"
     }
   },
   "devDependencies": {
