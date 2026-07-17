@@ -1,3 +1,3 @@
 window.addEventListener('DOMContentLoaded', () => {
-  console.log('FedPromptly loaded');
+  console.log('Pokejumper loaded');
 });
