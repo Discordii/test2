@@ -20,7 +20,7 @@
     },
     "nsis": {
       "installerIcon": "src/download.ico",
-      "uninstallerIcon": "src/download.icoo"
+      "uninstallerIcon": "src/download.ico"
     }
   },
   "devDependencies": {
